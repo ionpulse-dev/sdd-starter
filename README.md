@@ -380,6 +380,10 @@ The pattern is always the same: describe what you want, and let the AI figure ou
 
 There is no single right way. Several strategies work depending on the size of the project and how much existing code you want to cover. Choose the one that fits.
 
+sdd-starter can be used with existing codebases, but because it centers project state in `INDEX.md`, it is better suited for greenfield projects or projects where you want a central spec dashboard.
+
+For brownfield projects, consider [sdd-brownfield](https://github.com/DarkoDamjanovic/sdd-brownfield). It removes the `INDEX.md` concept and relies on the spec folders themselves, which is often a better fit when specs are added gradually around an existing codebase.
+
 ---
 
 **Strategy 1 — Forward only (recommended for large projects)**
