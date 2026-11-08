@@ -59,7 +59,7 @@
 **Step 1 — From your project's root folder, run:**
 
 ```bash
-curl -fsSL https://github.com/DarkoDamjanovic/sdd-starter/archive/main.tar.gz \
+curl -fsSL https://github.com/ionpulse-dev/sdd-starter/archive/main.tar.gz \
   | tar -xz sdd-starter-main/specs \
   && mv sdd-starter-main/specs specs \
   && rmdir sdd-starter-main
@@ -382,7 +382,7 @@ There is no single right way. Several strategies work depending on the size of t
 
 sdd-starter can be used with existing codebases, but because it centers project state in `INDEX.md`, it is better suited for greenfield projects or projects where you want a central spec dashboard.
 
-For brownfield projects, consider [sdd-brownfield](https://github.com/DarkoDamjanovic/sdd-brownfield). It removes the `INDEX.md` concept and relies on the spec folders themselves, which is often a better fit when specs are added gradually around an existing codebase.
+For brownfield projects, consider [sdd-brownfield](https://github.com/ionpulse-dev/sdd-brownfield). It removes the `INDEX.md` concept and relies on the spec folders themselves, which is often a better fit when specs are added gradually around an existing codebase.
 
 ---
 
